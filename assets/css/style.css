@@ -24,8 +24,42 @@ h5,
 h6 {
     margin: 0 0 15px;
     font-weight: 700;
+    font-family: 'Encode Sans Expanded', sans-serif;
 }
 body {
-
+    font-family: 'Karla', sans-serif;
 }
 a:hover { text-decoration: none }
+.frist-carousel{
+    background-image: url(../img/hero-bg.jpg);
+}
+.singel-prodact-bg-1{
+    background-image: url(../img/lady-1.png);
+}
+.singel-prodact-bg-2{
+    background-image: url(../img/lady-2.png);
+}
+.singel-prodact-bg-3{
+    background-image: url(../img/lady-3.png);
+}
+.singel-prodact-bg-4{
+    background-image: url(../img/lady-4.png);
+}
+.singel-prodact-bg-5{
+    background-image: url(../img/lady-5.png);
+}
+.singel-prodact-bg-6{
+    background-image: url(../img/lady-6.png);
+}
+.singel-prodact-bg-7{
+    background-image: url(../img/lady-7.png);
+}
+.singel-prodact-bg-8{
+    background-image: url(../img/lady-8.png);
+}
+.singel-prodact-bg-9{
+    background-image: url(../img/lady-9.png);
+}
+.singel-prodact-bg-10{
+    background-image: url(../img/lady-10.png);
+}
