@@ -223,7 +223,7 @@ ul.big-menu {
     height:  300px;
     float:  left;
     margin-bottom: 20px;
-    margin-left: 2%;
+    margin-right: 2%;
     background-color: #f4eded;
 }
 
@@ -379,4 +379,144 @@ span.color-green {
 
 .singel-prodact:hover .product-hover> a{
     transform: translate(-50%,-75%);
+}
+
+a.load-more-bt {
+    display:  block;
+    text-align:  center;
+    font-size: 20px;
+    font-weight:  700;
+    font-family: karl;
+    padding: 20px;
+    margin-top:  30px;
+    margin-bottom:  70px;
+    background-color:  #f9f9f8;
+    color:  #e84f88;
+}
+
+.product-promotion {
+    background-color:  #f8f5f5;
+}
+
+.promo-img {
+    background-color:  #f4f0f0;
+}
+
+.promo-img img {
+    transform: translateX(45%);
+}
+
+.promo-text {
+    padding-left: 40px;
+    padding-top:  50px;
+}
+
+.promo-text h3 {color:  #e84f88;font-size:  45px;font-family: 'Bellefair', serif;font-weight:  normal;}
+
+strong {
+    font-weight:  700;
+    font-family:  'Bellefair', serif;
+}
+
+span.year-text {
+    position:  absolute;
+    left: 37%;
+    font-size:  110px;
+    line-height:  110px;
+    opacity: .10;
+    top: 85px;
+    color:  #51abc8;
+}
+
+.promo-text p {
+    line-height:  2;
+    font-size:  16px;
+    padding-bottom:  15px;
+}
+
+a.more-bt {
+    color:  #fff;
+    background-color:  #51abc8;
+    padding:  10px 20px;
+    width: 85px;
+    display:  inline-block;
+    text-align:  center;
+}
+
+.logo-section {
+    margin-top:  50px;
+}
+
+.logo-section img {
+    transform: translateX(4%);
+}
+.logo-section {
+    margin-top:  50px;
+}
+
+.logo-section img {
+    transform: translateX(4%);
+}
+
+.footer {
+    margin-top: 45px;
+    background-color:  #f4f4f4;
+    overflow: hidden;
+}
+
+ul.footer-menu {
+    padding:  0;
+    margin:  0;
+    padding-top: 30px;
+    list-style:  none;
+}
+
+.footer-menu li {
+    display:  inline-block;
+    padding: 25px 35px;
+}
+
+.footer-menu li a {
+    text-transform:  uppercase;
+    color:  #a5a5a5;
+    font-size:  16px;
+    font-weight:  700;
+}
+
+.colo-md-6.footer-left {
+    margin-left:  10%;
+    float: left;
+}
+
+p.footer-p {
+    padding-left:  30px;
+    color:  #b9b9b9;
+    font-weight:  700;
+}
+
+.colo-md-6.footer-right {
+    float:  right;
+    padding-top: 40px;
+    margin-right: 10%;
+}
+
+.footer-icon {
+    font-size:  20px;
+    padding:  5px 10px;
+    color:  #b2b2b2;
+    text-align:  right;
+}
+
+input[type="mail"] {
+    width:  250px;
+    height: 36px;
+    border:  none;
+}
+
+input[type="submit"] {
+    width: 130px;
+    height: 38px;
+    color:  #fff;
+    background-color:  #e84f88;
+    border: none;
 }
