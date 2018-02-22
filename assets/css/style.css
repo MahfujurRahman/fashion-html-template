@@ -407,11 +407,15 @@ a.load-more-bt {
 }
 
 .promo-text {
-    padding-left: 40px;
-    padding-top:  50px;
+  padding: 30px 60px 0px 40px;
 }
 
-.promo-text h3 {color:  #e84f88;font-size:  45px;font-family: 'Bellefair', serif;font-weight:  normal;}
+.promo-text h3 {
+    color:  #e84f88;
+    font-size:  45px;
+    font-family: 'Bellefair', serif;
+    font-weight:  normal;
+}
 
 strong {
     font-weight:  700;
@@ -519,4 +523,57 @@ input[type="submit"] {
     color:  #fff;
     background-color:  #e84f88;
     border: none;
+}
+
+.owl-carousel .owl-item .singel-lady img {
+    width: auto;
+}
+
+.frist-carousel.owl-carousel.owl-theme .owl-nav div {
+    height: auto;
+}
+
+.frist-carousel .owl-nav div {
+    position: absolute;
+    left: 5%;
+    font-size: 20px;
+    line-height: 20px;
+    top: 50%;
+    margin-top: 20px;
+    color: #5b3f61;
+    transition: .3s;
+    opacity: 0;
+}
+
+.frist-carousel:hover .owl-nav div.owl-next {
+    left: auto;
+    right: 5%;
+}
+
+.frist-carousel:hover .owl-nav div {
+    opacity: 1;
+    left: 5%;
+}
+
+.product-promotion.owl-carousel img {
+    width: auto !important;
+}
+
+.product-promotion .owl-dots div {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    background-color: #d3cece;
+}
+
+.product-promotion .owl-dots .active {
+    background-color: #e84f88;
+}
+
+.product-promotion .owl-dots {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    margin-top: -20px;
 }
