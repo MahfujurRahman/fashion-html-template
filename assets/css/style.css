@@ -568,6 +568,9 @@ input[type="submit"] {
     background-color: #d3cece;
 }
 
+.frist-carousel.owl-carousel .owl-controls {
+    height: 10px;
+}
 .product-promotion .owl-dots .active {
     background-color: #e84f88;
 }
@@ -644,4 +647,16 @@ input[type="submit"] {
 
 .tregel-menu span:nth-child(3) {
     width:  25px;
+}
+
+.search {
+    padding: 8px 30px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    margin-right: -20px;
+    opacity: 0;
+}
+
+.search.active{
+    opacity: 1;
 }

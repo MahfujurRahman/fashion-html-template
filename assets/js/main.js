@@ -38,6 +38,17 @@
 
 
 
+         $(".search-treger").on("click", function(){
+        	$(".search, .canvar-menu-overlay").addClass("active");
+        	return false;
+        })
+
+         $(".canvar-menu-overlay").on("click", function(){
+        	$(".search, .canvar-menu-overlay").removeClass("active");
+        })
+
+         
+
         $(".product-list").masonry();
 
 
